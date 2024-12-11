@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE8F15702D09F23F008BFE7F /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F156F2D09F23F008BFE7F /* BankAccount.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		CE8F155F2D09B495008BFE7F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE8F15612D09B495008BFE7F /* Homework6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework6; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8F156F2D09F23F008BFE7F /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +49,7 @@
 		CE8F15582D09B495008BFE7F = {
 			isa = PBXGroup;
 			children = (
+				CE8F156F2D09F23F008BFE7F /* BankAccount.swift */,
 				CE8F15632D09B495008BFE7F /* Homework6 */,
 				CE8F15622D09B495008BFE7F /* Products */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8F15702D09F23F008BFE7F /* BankAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
