@@ -27,31 +27,30 @@ func chunked(numbers: [Int], chunkSize: Int) -> [[Int]] {
 }
 
 func findPrimesConcurrently(numbers: [Int]) {
-    let queue = DispatchQueue(label: "com.prime.concurrent", attributes: .concurrent)
-    let group = DispatchGroup()
-    let chunkSize = max(1, numbers.count / ProcessInfo.processInfo.activeProcessorCount)
+    let queue = OperationQueue()
+    queue.maxConcurrentOperationCount = ProcessInfo.processInfo.activeProcessorCount
     var results = Array(repeating: false, count: numbers.count)
-
+    
+    var chunkSize = numbers.count / ProcessInfo.processInfo.activeProcessorCount
+    if chunkSize <= 1 { chunkSize = 1 }
     let chunks = chunked(numbers: numbers, chunkSize: chunkSize)
+    
     for (chunkIndex, chunk) in chunks.enumerated() {
-        group.enter()
-        queue.async {
+        queue.addOperation {
             let startIndex = chunkIndex * chunkSize
             for (offset, number) in chunk.enumerated() {
                 results[startIndex + offset] = isPrime(number)
             }
-            group.leave()
         }
     }
-    group.notify(queue: .main) {
-        var primes = [Int]()
-        for (index, number) in numbers.enumerated() where results[index] {
-            primes.append(number)
-         }
-        print("Prime numbers: \(primes)")
+    
+    queue.waitUntilAllOperationsAreFinished()
+    
+    var primes = [Int]()
+    for (index, number) in numbers.enumerated() where results[index] {
+        primes.append(number)
     }
-    RunLoop.main.run()
+    print("Prime numbers: \(primes)")
 }
-
-let largeList = Array(1...1000)
+let largeList = Array(1...100000)
 findPrimesConcurrently(numbers: largeList)
