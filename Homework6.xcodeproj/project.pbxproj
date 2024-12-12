@@ -6,37 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CE8F15702D09F23F008BFE7F /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F156F2D09F23F008BFE7F /* BankAccount.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CE8F155F2D09B495008BFE7F /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		CE8F15612D09B495008BFE7F /* Homework6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework6; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8F156F2D09F23F008BFE7F /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		CE58F2382D0AEB1E00353FBD /* Homework6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CE58F2602D0AEB2100353FBD /* Exceptions for "Homework6" folder in "Homework6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CE58F2372D0AEB1E00353FBD /* Homework6 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE8F15632D09B495008BFE7F /* Homework6 */ = {
+		CE58F23A2D0AEB1E00353FBD /* Homework6 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CE58F2602D0AEB2100353FBD /* Exceptions for "Homework6" folder in "Homework6" target */,
+			);
 			path = Homework6;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE8F155E2D09B495008BFE7F /* Frameworks */ = {
+		CE58F2352D0AEB1E00353FBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,19 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE8F15582D09B495008BFE7F = {
+		CE58F22F2D0AEB1E00353FBD = {
 			isa = PBXGroup;
 			children = (
-				CE8F156F2D09F23F008BFE7F /* BankAccount.swift */,
-				CE8F15632D09B495008BFE7F /* Homework6 */,
-				CE8F15622D09B495008BFE7F /* Products */,
+				CE58F23A2D0AEB1E00353FBD /* Homework6 */,
+				CE58F2392D0AEB1E00353FBD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE8F15622D09B495008BFE7F /* Products */ = {
+		CE58F2392D0AEB1E00353FBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE8F15612D09B495008BFE7F /* Homework6 */,
+				CE58F2382D0AEB1E00353FBD /* Homework6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,86 +61,149 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE8F15602D09B495008BFE7F /* Homework6 */ = {
+		CE58F2372D0AEB1E00353FBD /* Homework6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8F15682D09B495008BFE7F /* Build configuration list for PBXNativeTarget "Homework6" */;
+			buildConfigurationList = CE58F2612D0AEB2100353FBD /* Build configuration list for PBXNativeTarget "Homework6" */;
 			buildPhases = (
-				CE8F155D2D09B495008BFE7F /* Sources */,
-				CE8F155E2D09B495008BFE7F /* Frameworks */,
-				CE8F155F2D09B495008BFE7F /* CopyFiles */,
+				CE58F2342D0AEB1E00353FBD /* Sources */,
+				CE58F2352D0AEB1E00353FBD /* Frameworks */,
+				CE58F2362D0AEB1E00353FBD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE8F156E2D09DB3C008BFE7F /* PBXTargetDependency */,
+				CE58F2852D0AEFE300353FBD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CE8F15632D09B495008BFE7F /* Homework6 */,
+				CE58F23A2D0AEB1E00353FBD /* Homework6 */,
 			);
 			name = Homework6;
 			packageProductDependencies = (
 			);
 			productName = Homework6;
-			productReference = CE8F15612D09B495008BFE7F /* Homework6 */;
-			productType = "com.apple.product-type.tool";
+			productReference = CE58F2382D0AEB1E00353FBD /* Homework6.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE8F15592D09B495008BFE7F /* Project object */ = {
+		CE58F2302D0AEB1E00353FBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					CE8F15602D09B495008BFE7F = {
+					CE58F2372D0AEB1E00353FBD = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = CE8F155C2D09B495008BFE7F /* Build configuration list for PBXProject "Homework6" */;
+			buildConfigurationList = CE58F2332D0AEB1E00353FBD /* Build configuration list for PBXProject "Homework6" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CE8F15582D09B495008BFE7F;
+			mainGroup = CE58F22F2D0AEB1E00353FBD;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				CE8F156B2D09B59E008BFE7F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				CE58F2832D0AEFD300353FBD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CE8F15622D09B495008BFE7F /* Products */;
+			productRefGroup = CE58F2392D0AEB1E00353FBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE8F15602D09B495008BFE7F /* Homework6 */,
+				CE58F2372D0AEB1E00353FBD /* Homework6 */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		CE58F2362D0AEB1E00353FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CE8F155D2D09B495008BFE7F /* Sources */ = {
+		CE58F2342D0AEB1E00353FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8F15702D09F23F008BFE7F /* BankAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE8F156E2D09DB3C008BFE7F /* PBXTargetDependency */ = {
+		CE58F2852D0AEFE300353FBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = CE8F156D2D09DB3C008BFE7F /* SwiftLintBuildToolPlugin */;
+			productRef = CE58F2842D0AEFE300353FBD /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CE8F15662D09B495008BFE7F /* Debug */ = {
+		CE58F2622D0AEB2100353FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homework6/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KSE.AppleDevelopment.Homework6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE58F2632D0AEB2100353FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homework6/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KSE.AppleDevelopment.Homework6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE58F2642D0AEB2100353FBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,18 +255,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CE8F15672D09B495008BFE7F /* Release */ = {
+		CE58F2652D0AEB2100353FBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,50 +312,33 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		CE8F15692D09B495008BFE7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		CE8F156A2D09B495008BFE7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE8F155C2D09B495008BFE7F /* Build configuration list for PBXProject "Homework6" */ = {
+		CE58F2332D0AEB1E00353FBD /* Build configuration list for PBXProject "Homework6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8F15662D09B495008BFE7F /* Debug */,
-				CE8F15672D09B495008BFE7F /* Release */,
+				CE58F2642D0AEB2100353FBD /* Debug */,
+				CE58F2652D0AEB2100353FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8F15682D09B495008BFE7F /* Build configuration list for PBXNativeTarget "Homework6" */ = {
+		CE58F2612D0AEB2100353FBD /* Build configuration list for PBXNativeTarget "Homework6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8F15692D09B495008BFE7F /* Debug */,
-				CE8F156A2D09B495008BFE7F /* Release */,
+				CE58F2622D0AEB2100353FBD /* Debug */,
+				CE58F2632D0AEB2100353FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -305,7 +346,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE8F156B2D09B59E008BFE7F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+		CE58F2832D0AEFD300353FBD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins.git";
 			requirement = {
@@ -316,12 +357,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CE8F156D2D09DB3C008BFE7F /* SwiftLintBuildToolPlugin */ = {
+		CE58F2842D0AEFE300353FBD /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE8F156B2D09B59E008BFE7F /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			package = CE58F2832D0AEFD300353FBD /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = CE8F15592D09B495008BFE7F /* Project object */;
+	rootObject = CE58F2302D0AEB1E00353FBD /* Project object */;
 }
