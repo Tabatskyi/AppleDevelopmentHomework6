@@ -1,6 +1,15 @@
 {
-  "originHash" : "ae94d77b3cab58245ed9263e61d40af9694885616f7792aa7c3480acc2cc933c",
+  "originHash" : "fe6bf319275f4604767be75d81288a323a6e1cf0b65d52fc42efe406ce07e6f6",
   "pins" : [
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
     {
       "identity" : "swiftlintplugins",
       "kind" : "remoteSourceControl",
